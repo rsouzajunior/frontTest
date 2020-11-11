@@ -15,7 +15,7 @@ export default class Origin extends Component {
   }
 
   componentDidMount() {
-    const api012 = "/api/getcategory/Vxgia2VqxUY8Tt7Xycg3yIhSzSP2"
+    const api012 = "https://backtst.herokuapp.com/api/getcategory/Vxgia2VqxUY8Tt7Xycg3yIhSzSP2"
     console.log('api ' + api012)
 
     fetch(api012)
